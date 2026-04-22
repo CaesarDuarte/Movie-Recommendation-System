@@ -1,0 +1,26 @@
+# Data (never commit raw or processed data)
+data/raw/
+data/processed/
+data/curated/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.conda/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models
+*.pkl
+*.pt
+*.pth
+
+# OS
+.DS_Store
+Thumbs.db
